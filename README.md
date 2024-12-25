@@ -9,6 +9,7 @@ Proyek ini dikembangkan untuk membantu memprediksi risiko stunting pada balita b
 - **Berat badan (kg)**: Berat badan balita pada saat pengukuran.
 - **Panjang badan (cm)**: Panjang badan balita pada saat pengukuran.
 - **Label yang menunjukkan status stunting atau wasting**: Indikator status gizi berdasarkan rasio berat badan terhadap tinggi badan.
+- 
 Berikut adalah tabel korelasi antar variabel dataset:
 ![korelasi dataset](https://github.com/user-attachments/assets/28f9a5b3-991f-42dd-a803-aafcc90c3ba3)
 
@@ -35,6 +36,9 @@ pdm run start
 ## Deskripsi Model
 Proyek ini menggunakan dua jenis model untuk prediksi risiko stunting:
 1. **Feedforward Neural Network (FNN):**
+
+   ![fnn](https://github.com/user-attachments/assets/a251e831-783f-4fcf-8b37-c919e727afd8)
+
   - Model ini dibangun dengan TensorFlow/Keras menggunakan arsitektur jaringan saraf sederhana.
   - Input: Umur, berat badan, panjang badan, jenis kelamin, dan fitur tambahan placeholder.
   - Output: Nilai kontinu yang merepresentasikan tingkat risiko stunting.
@@ -46,14 +50,15 @@ Proyek ini menggunakan dua jenis model untuk prediksi risiko stunting:
     * Untuk klasifikasi biner: 1 neuron dengan fungsi aktivasi sigmoid.
     * Untuk klasifikasi multi-kelas: sejumlah neuron sesuai jumlah kelas, dengan fungsi aktivasi softmax.
 
-![fnn](https://github.com/user-attachments/assets/a251e831-783f-4fcf-8b37-c919e727afd8)
 
 2. **Random Forest (RF):**
+
+   ![rf](https://github.com/user-attachments/assets/ed2d4042-6621-4279-8aa2-5c22c8e7c3eb)
+
   - Model ini dilatih menggunakan sklearn dengan algoritma ensemble Random Forest.
   - Input: Seluruh fitur yang tersedia (7 fitur).
   - Output: Kelas diskrit (0-3) yang merepresentasikan kategori risiko stunting.
 
-![rf](https://github.com/user-attachments/assets/ed2d4042-6621-4279-8aa2-5c22c8e7c3eb)
 
 
 ## Hasil dan Analisis
@@ -63,20 +68,30 @@ Proyek ini menggunakan dua jenis model untuk prediksi risiko stunting:
 
 ### Perbandingan Model
 Hasil evaluasi model dibandingkan menggunakan dataset validasi:
+
 **Feedforward Neural Network (FNN):**
+
 ![fnn cr](https://github.com/user-attachments/assets/8822f10e-ed42-4956-9893-9e2d91532500)
 
+
 **Random Forest (RF):**
+
 ![rf cr](https://github.com/user-attachments/assets/be23fe58-98b6-4462-8783-289ca18294bb)
+
 
 
 ### Grafik Evaluasi 
 Berikut adalah visualisasi hasil evaluasi:
+
 **Feedforward Neural Network (FNN):**
+
 ![cm fnn](https://github.com/user-attachments/assets/1fcf65ee-0c4a-4650-80dc-6d544951f7c8)
 
+
 **Random Forest (RF):**
+
 ![cm rf](https://github.com/user-attachments/assets/cb78cf15-1eac-4db8-a82f-489cf16713ce)
+
 
 
 ## Kesimpulan
