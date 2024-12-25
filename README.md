@@ -1,6 +1,6 @@
 # 👶🏻Prediksi Risiko Stunting pada Balita👶🏻
 
-## Deskripsi Proyek
+## 📝Deskripsi Proyek
 Proyek ini dikembangkan untuk membantu memprediksi risiko stunting pada balita berdasarkan data masukan seperti umur (bulan), berat badan, panjang badan, dan jenis kelamin. Dengan menggunakan model deep learning Feedforward Neural Network (FNN) dan Random Forest, proyek ini bertujuan memberikan rekomendasi awal untuk pemantauan dan intervensi dini pada balita yang berisiko stunting.
 
 **Dataset** diperoleh dari [Stunting Wasting Dataset](https://www.kaggle.com/datasets/jabirmuktabir/stunting-wasting-dataset). Dataset ini mencakup data antropometri dan demografi yang terperinci untuk anak-anak, dengan fokus pada indikator stunting dan wasting. Dataset ini menyediakan fitur-fitur seperti:
@@ -9,12 +9,12 @@ Proyek ini dikembangkan untuk membantu memprediksi risiko stunting pada balita b
 - **Berat badan (kg)**: Berat badan balita pada saat pengukuran.
 - **Panjang badan (cm)**: Panjang badan balita pada saat pengukuran.
 - **Label yang menunjukkan status stunting atau wasting**: Indikator status gizi berdasarkan rasio berat badan terhadap tinggi badan.
-- 
+  
 Berikut adalah tabel korelasi antar variabel dataset:
 ![korelasi dataset](https://github.com/user-attachments/assets/28f9a5b3-991f-42dd-a803-aafcc90c3ba3)
 
 
-## Langkah Instalasi
+## 📩Langkah Instalasi
 _**Buat Virtual Environment**_
 ```bash
 python -m venv env
@@ -33,7 +33,7 @@ pdm run start
 ```
 
 
-## Deskripsi Model
+## ✏️Deskripsi Model
 Proyek ini menggunakan dua jenis model untuk prediksi risiko stunting:
 1. **Feedforward Neural Network (FNN):**
 
@@ -61,12 +61,12 @@ Proyek ini menggunakan dua jenis model untuk prediksi risiko stunting:
 
 
 
-## Hasil dan Analisis
-### Performa Model
+## 📋Hasil dan Analisis
+### 📈Performa Model
 - FNN: Akurasi pelatihan mencapai 98% dengan loss yang stabil setelah beberapa epoch.
 - RF: Akurasi cross-validation mencapai 99% dengan kelebihan dalam interpretasi hasil model.
 
-### Perbandingan Model
+### 🧮Perbandingan Model
 Hasil evaluasi model dibandingkan menggunakan dataset validasi:
 
 **Feedforward Neural Network (FNN):**
@@ -80,7 +80,7 @@ Hasil evaluasi model dibandingkan menggunakan dataset validasi:
 
 
 
-### Grafik Evaluasi 
+### 📊Grafik Evaluasi 
 Berikut adalah visualisasi hasil evaluasi:
 
 **Feedforward Neural Network (FNN):**
@@ -94,11 +94,11 @@ Berikut adalah visualisasi hasil evaluasi:
 
 
 
-## Kesimpulan
+## 🫧Kesimpulan
 - Model Random Forest lebih stabil dan memiliki interpretasi lebih baik dibandingkan FNN.
 - FNN lebih fleksibel untuk data baru dengan nilai kontinu, tetapi perlu dioptimalkan lebih lanjut.
 
 
-## Author
+## 👩🏻‍💻Author
 [Lusy Rohmadhoni](https://github.com/Lusy230) - 202110370311230
 
