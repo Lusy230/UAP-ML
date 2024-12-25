@@ -31,6 +31,8 @@ _**Jalankan Aplikasi**_
 ```bash
 pdm run start
 ```
+_**Link Download Model**_
+https://drive.google.com/drive/folders/1OosztoGlESiEbZ_TKAdLiRqEtUqiOUM6?usp=sharing
 
 
 ## ✏️Deskripsi Model
