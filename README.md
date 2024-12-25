@@ -34,6 +34,9 @@ pdm run start
 _**Link Download Model**_
 https://drive.google.com/drive/folders/1OosztoGlESiEbZ_TKAdLiRqEtUqiOUM6?usp=sharing
 
+Project dapat dilihat pada link berikut:
+https://github.com/Lusy230/UAP.git
+
 
 ## ✏️Deskripsi Model
 Proyek ini menggunakan dua jenis model untuk prediksi risiko stunting:
