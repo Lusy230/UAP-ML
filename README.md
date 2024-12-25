@@ -98,6 +98,11 @@ Berikut adalah visualisasi hasil evaluasi:
 - Model Random Forest lebih stabil dan memiliki interpretasi lebih baik dibandingkan FNN.
 - FNN lebih fleksibel untuk data baru dengan nilai kontinu, tetapi perlu dioptimalkan lebih lanjut.
 
+Berikut tampilan dari proyek:
+
+![tampilan](https://github.com/user-attachments/assets/721f477e-43c0-4c01-a5ae-6d9a6b1f601f)
+
+
 
 ## 👩🏻‍💻Author
 [Lusy Rohmadhoni](https://github.com/Lusy230) - 202110370311230
